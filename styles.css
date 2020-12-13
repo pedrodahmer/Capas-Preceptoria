@@ -1,0 +1,194 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+*,
+button,
+input {
+  border: none;
+  outline: none;
+}
+
+section {
+  background-image: url("images/capa2x.png");
+  background-size: cover;
+
+  height: 80vh;
+  width: 100vw;
+}
+
+section .modulo {
+  position: absolute;
+  top: 47vh;
+
+  padding-left: 120px;
+
+  font: normal normal 300 30px Mitr;
+  color: #fff;
+}
+
+section .titlecard {
+  position: absolute;
+
+  top: 52.5vh;
+
+  height: 21%;
+  width: 70vw;
+
+  padding-left: 120px;
+  padding-top: 2px;
+
+  border-radius: 0px 120px 0px 0px;
+
+  background-color: #fff;
+
+  font-family: "Mitr", sans-serif;
+  font-size: 60px;
+  color: #22255c;
+}
+
+section .btn-unidades {
+  position: relative;
+
+  height: 60px;
+  width: 200px;
+
+  top: 65vh;
+  left: 80vw;
+
+  color: #fff;
+  font-size: 35px;
+  font-weight: 300;
+  font-family: "Mitr", sans-serif;
+
+  background-color: #22255c;
+
+  border-radius: 11px 37px 36px 0px;
+}
+
+section .btn-unidades:hover,
+section .btn-iniciar:hover,
+section .btn-voltar:hover {
+  cursor: pointer;
+}
+
+section .btn-iniciar {
+  position: relative;
+
+  height: 60px;
+  width: 200px;
+
+  top: 65vh;
+  left: 80vw;
+
+  color: #70cbc0;
+  font-size: 35px;
+  font-weight: 500;
+  font-family: "Mitr", sans-serif;
+
+  background-color: #fff;
+
+  border-radius: 11px 37px 36px 0px;
+}
+
+section .btn-voltar {
+  position: relative;
+
+  height: 60px;
+  width: 200px;
+
+  top: 10vh;
+  left: 80vw;
+
+  color: #70cbc0;
+  font-size: 35px;
+  font-weight: 500;
+  font-family: "Mitr", sans-serif;
+
+  background-color: transparent;
+
+  border-radius: 11px 37px 36px 0px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+section .icon-voltar {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: #ffffff;
+}
+
+section .barra-verde {
+  position: absolute;
+
+  top: 73vh;
+
+  height: 7%;
+  width: 100vw;
+
+  padding-left: 120px;
+
+  font-family: "Mitr", sans-serif;
+  font-size: 40px;
+  color: #fff;
+
+  background-color: rgba(112, 203, 192, 0.8);
+}
+
+@media (min-height: 600px) {
+  section .titlecard {
+    font-size: 30px;
+  }
+
+  section .barra-verde {
+    font-size: 20px;
+  }
+}
+
+@media (min-height: 720px) {
+  section .titlecard {
+    font-size: 40px;
+  }
+
+  section .barra-verde {
+    font-size: 30px;
+  }
+}
+
+@media (min-height: 768px) {
+  section .titlecard {
+    font-size: 50px;
+  }
+}
+
+@media (min-height: 900px) {
+  section .titlecard {
+    font-size: 60px;
+  }
+
+  section .barra-verde {
+    font-size: 40px;
+  }
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+
+  height: 20vh;
+  width: 100vw;
+}
+
+footer img {
+  width: 100%;
+}
